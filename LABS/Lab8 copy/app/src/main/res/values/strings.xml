@@ -1,0 +1,17 @@
+<resources>
+    <string name="app_name">Lab 8</string>
+    <string name="title">Drink Finder 101</string>
+    <string name="alcohol_type">Choose your alcohol of choice</string>
+    <string name="button">Find My Drink</string>
+    <string-array name="alcohol">
+        <item>Champaign</item>
+        <item>Tequila</item>
+        <item>Vodka</item>
+        <item>Gin</item>
+    </string-array>
+    <string name="coffee_image">coffee cup</string>
+    <string name="suggested_drink">This is your suggested drink</string>
+    <string name="title_activity_coffee">CoffeeActivity</string>
+    <string name="create_order">Order</string>
+    <string name="action_settings">Settings</string>
+</resources>

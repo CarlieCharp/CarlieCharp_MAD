@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Project 2</string>
+    <string name="pro">PROS</string>
+    <string name="con">CONS</string>
+    <string name="profactor">Pro Factor</string>
+    <string name="confactor">Con Factor</string>
+    <string name="points">Extra Point</string>
+    <string name="verdict">Final Verdict</string>
+    <string name="addpoint">+1</string>
+
+</resources>

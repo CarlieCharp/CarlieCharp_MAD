@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Mexican food builder</string>
+    <string name="title">Mexican Meal Builder</string>
+    <string name="coffee_type">Choose your crowd</string>
+    <string name="button">find location</string>
+    <string name="button2">BUILD</string>
+    <string name="name">name</string>
+    <string-array name="crowd">
+        <item>The Hill</item>
+        <item>29th Street</item>
+        <item>Pearl Street</item>
+    </string-array>
+    <string name="toggle_on">Veggie</string>
+    <string name="toggle_off">Meat</string>
+    <string name="taco">Taco</string>
+    <string name="burrito">Burrito</string>
+    <string name="cheese">Cheese</string>
+    <string name="salsa">Salsa</string>
+    <string name="lettuce">Lettuce</string>
+    <string name="coffee_image">coffee cup</string>
+    <string name="suggested_coffee">This is your suggested mexican food location</string>
+    <string name="title_activity_coffee">Mexican Place </string>
+    <string name="create_order">Order</string>
+    <string name="action_settings">Settings</string>
+</resources>

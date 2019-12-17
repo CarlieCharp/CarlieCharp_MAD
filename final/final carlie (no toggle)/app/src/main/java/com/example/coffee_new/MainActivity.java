@@ -22,7 +22,6 @@ public class MainActivity extends AppCompatActivity {
     CheckBox cb, cb2, cb3, cb4, cb5;
     TextView text;
     EditText name;
-
     Button finalVerdict;
     private TextView verdictSelection;
     private Button button;
@@ -78,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
 
         //edittext
         String nameValue = name.getText().toString();
-        String toggleValue =toggle.getText().toString();
 
         if (cb.isChecked() && cb2.isChecked()) {
             text.setText("Hey " + nameValue + " pick one!");
@@ -97,7 +95,7 @@ public class MainActivity extends AppCompatActivity {
         //all three
         else if (cb.isChecked() && cb3.isChecked() && cb4.isChecked() && cb5.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a " + toggleValue + " taco with cheese, salsa, and lettuce!");
+            text.setText("Hey " +  nameValue + ", you should have a taco with cheese, salsa, and lettuce!");
             ImageView taco = findViewById(R.id.imageView);
             taco.setImageResource(R.drawable.taco);
 
@@ -106,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
         //
         else if (cb.isChecked() && cb3.isChecked() && cb4.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a  " + toggleValue + " taco with cheese and salsa!");
+            text.setText("Hey " +  nameValue + ", you should have a taco with cheese and sals!");
             ImageView taco = findViewById(R.id.imageView);
             taco.setImageResource(R.drawable.taco);
 
@@ -115,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
 
         else if (cb.isChecked() && cb3.isChecked() && cb5.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a " + toggleValue + " taco with cheese and lettuce!");
+            text.setText("Hey " +  nameValue + ", you should have a taco with cheese and lettuce!");
             ImageView taco = findViewById(R.id.imageView);
             taco.setImageResource(R.drawable.taco);
 
@@ -123,7 +121,7 @@ public class MainActivity extends AppCompatActivity {
 
         else if (cb.isChecked() && cb4.isChecked() && cb5.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a " + toggleValue + "  taco with lettuce and salsa!");
+            text.setText("Hey " +  nameValue + ", you should have a taco with lettuce and salsa!");
             ImageView taco = findViewById(R.id.imageView);
             taco.setImageResource(R.drawable.taco);
 
@@ -131,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
         //just one toping
         else if (cb.isChecked() && cb3.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a  " + toggleValue + "  taco with cheese!");
+            text.setText("Hey " +  nameValue + ", you should have a taco with cheese!");
             ImageView taco = findViewById(R.id.imageView);
             taco.setImageResource(R.drawable.taco);
 
@@ -139,7 +137,7 @@ public class MainActivity extends AppCompatActivity {
 
         else if (cb.isChecked() && cb4.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a " + toggleValue + "  taco with salsa!");
+            text.setText("Hey " +  nameValue + ", you should have a taco with salsa!");
             ImageView taco = findViewById(R.id.imageView);
             taco.setImageResource(R.drawable.taco);
 
@@ -147,7 +145,7 @@ public class MainActivity extends AppCompatActivity {
 
         else if (cb.isChecked() && cb5.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a " + toggleValue + "  taco with lettuce!");
+            text.setText("Hey " +  nameValue + ", you should have a taco with lettuce!");
             ImageView taco = findViewById(R.id.imageView);
             taco.setImageResource(R.drawable.taco);
 
@@ -156,14 +154,14 @@ public class MainActivity extends AppCompatActivity {
         //burrito ones
         else if (cb2.isChecked() && cb3.isChecked() && cb4.isChecked() && cb5.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a  " + toggleValue + "  burrito with cheese, salsa, and lettuce!");
+            text.setText("Hey " +  nameValue + ", you should have a burrito with cheese, salsa, and lettuce!");
             ImageView burrito = findViewById(R.id.imageView);
             burrito.setImageResource(R.drawable.burrito);
         }
 
         else if (cb2.isChecked() && cb3.isChecked() && cb4.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a " + toggleValue + "  burrito with cheese and salsa!");
+            text.setText("Hey " +  nameValue + ", you should have a burrito with cheese and salsa!");
             ImageView burrito = findViewById(R.id.imageView);
             burrito.setImageResource(R.drawable.burrito);
 
@@ -171,7 +169,7 @@ public class MainActivity extends AppCompatActivity {
 
         else if (cb2.isChecked() && cb3.isChecked() && cb5.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a " + toggleValue + "  burrito with cheese and lettuce!");
+            text.setText("Hey " +  nameValue + ", you should have a burrito with cheese and lettuce!");
             ImageView burrito = findViewById(R.id.imageView);
             burrito.setImageResource(R.drawable.burrito);
 
@@ -180,7 +178,7 @@ public class MainActivity extends AppCompatActivity {
 
         else if (cb2.isChecked() && cb4.isChecked() && cb5.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a " + toggleValue + "  burrito with lettuce and salsa!");
+            text.setText("Hey " +  nameValue + ", you should have a burrito with lettuce and salsa!");
             ImageView burrito = findViewById(R.id.imageView);
             burrito.setImageResource(R.drawable.burrito);
         }
@@ -188,7 +186,7 @@ public class MainActivity extends AppCompatActivity {
         //just one toping
         else if (cb2.isChecked() && cb3.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a " + toggleValue + "  burrito with cheese!");
+            text.setText("Hey " +  nameValue + ", you should have A burrito with cheese!");
             ImageView burrito = findViewById(R.id.imageView);
             burrito.setImageResource(R.drawable.burrito);
 
@@ -196,7 +194,7 @@ public class MainActivity extends AppCompatActivity {
 
         else if (cb2.isChecked() && cb4.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a " + toggleValue + "  burrito with salsa!");
+            text.setText("Hey " +  nameValue + ", you should have a burrito with salsa!");
             ImageView burrito = findViewById(R.id.imageView);
             burrito.setImageResource(R.drawable.burrito);
 
@@ -204,7 +202,7 @@ public class MainActivity extends AppCompatActivity {
 
         else if (cb2.isChecked() && cb5.isChecked())
         {
-            text.setText("Hey " +  nameValue + ", you should have a " + toggleValue + "  burrito with lettuce!");
+            text.setText("Hey " +  nameValue + ", you should have a burrito with lettuce!");
             ImageView burrito = findViewById(R.id.imageView);
             burrito.setImageResource(R.drawable.burrito);
 

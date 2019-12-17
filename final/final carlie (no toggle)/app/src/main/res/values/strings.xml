@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">Final Carlie</string>
+    <string name="app_name">Mexican food builder</string>
     <string name="title">Mexican Meal Builder</string>
     <string name="coffee_type">Choose your crowd</string>
     <string name="button">find location</string>

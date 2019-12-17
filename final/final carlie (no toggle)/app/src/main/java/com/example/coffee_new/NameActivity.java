@@ -41,7 +41,7 @@ public class NameActivity extends AppCompatActivity {
 
         //update text view
         TextView messageView = findViewById(R.id.coffeeShopTextView);
-        messageView.setText("You should go to " + coffeeShop);
+        messageView.setText("You should check out " + coffeeShop);
     }
 
     private void loadWebSite(View view){
